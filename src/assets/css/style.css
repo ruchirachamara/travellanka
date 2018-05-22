@@ -4732,6 +4732,7 @@ p {
 body {
   font-family: 'Lato', sans-serif;
   color: #4b4a4a;
+  overflow-x: hidden;
 }
 ul {
   margin: 0;

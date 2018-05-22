@@ -3,9 +3,9 @@
   </div> -->
   <nav class="ct-menuMobile text-uppercase">
     <ul class="ct-menuMobile-navbar">
-      <li class="dropdown"><a href="index.html">home</a>
+      <li class="dropdown"><a routerLink="/">Home</a>
         <ul class="dropdown-menu">
-          <li><a href="index.html">homepage</a></li>
+          <li><a routerLink="/">Home</a></li>
           <li><a href="onepager.html">onepager</a></li>
           <li><a href="adventure.html">Adventure</a></li>
           <li><a href="adventure2.html">Adventure - next</a></li>
@@ -46,7 +46,7 @@
           <li><a href="testimonials.html">testimonials</a></li>
         </ul>
       </li>
-      <li><a href="contact.html">contact</a></li>
+      <li><a [routerLink]="['contact']">Contact</a></li>
     </ul>
   </nav>
   <div class="ct-reserveTicket">
@@ -79,7 +79,7 @@
             </li>
             <li><a href="register.html">register</a></li>
             <li><a href="signin.html">login</a></li>
-          </ul><a href="contact.html" class="btn btn-default btn-xs">contact us</a>
+          </ul><a [routerLink]="['contact']">Contact</a>
         </div>
       </div>
     </div>
@@ -87,7 +87,7 @@
       <div class="container">
         <div class="navbar-header"><a href="index.html"><img src="assets/images/demo-content/guide-tour/logo.png" alt="logo"></a></div>
         <ul class="nav navbar-nav ct-navbar--fadeInUp pull-right">
-          <li class="dropdown"><a href="index.html">home</a>
+          <li class="dropdown"><a routerLink="/">Home</a>
             <ul class="dropdown-menu">
               <li><a href="onepager.html">Onepager</a><a href="adventure.html">Adventure</a><a href="adventure2.html">Adventure - next</a><a href="travel.html">Travel</a><a href="travel-deals.html">Travel Deals</a></li>
             </ul>
@@ -116,39 +116,7 @@
               </li>
             </ul>
           </li>
-          <li class="dropdown"><a href="contact.html">Contact</a></li>
+          <li class="dropdown"><a [routerLink]="['contact']">Contact</a></li>
         </ul>
       </div>
     </nav>
-    <header id="home" class="ct-u-colorWhite text-left">
-      <div data-adaptiveHeight="true" data-animations="true" data-autoplay="true" data-infinite="true" data-autoplaySpeed="6000" data-draggable="true" data-touchMove="false" data-arrows="true" data-items="1" class="ct-slick ct-js-slick">
-        <div data-bg="./assets/images/demo-content/guide-tour/sliderImage.jpg" class="item">
-          <div class="ct-slick-inner">
-            <div class="ct-slick-content">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-7">
-                    <h1 class="ct-textDecoration--underline ct-u-marginBottom60 ct-fw-300"><span class="ct-u-text-big text-uppercase">new</span>Get 15% off on vacations</h1>
-                    <p class="ct-u-marginBottom50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ipsum nibh, maluit esuada a sem id, tincidunt tristique nibh. Mauris tristique velit massam, in frinui gilla turpis semper quis. Sed sagittis cursus erat, et ibendum nec.</p><a href="#packages" class="btn btn-lg btn-default btn-transparent text-uppercase ct-js-btnScroll">more details</a><a href="basic-package-single.html" class="btn btn-lg btn-primary text-uppercase">book now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div data-bg="./assets/images/demo-content/guide-tour/sliderImage3.jpg" class="item">
-          <div class="ct-slick-inner">
-            <div class="ct-slick-content">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-7">
-                    <h1 class="ct-textDecoration--underline ct-u-marginBottom60 ct-fw-300"><span class="ct-u-text-big text-uppercase">new</span>Get 15% off on vacations</h1>
-                    <p class="ct-u-marginBottom50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ipsum nibh, maluit esuada a sem id, tincidunt tristique nibh. Mauris tristique velit massam, in frinui gilla turpis semper quis. Sed sagittis cursus erat, et ibendum nec.</p><a href="#packages" class="btn btn-lg btn-default btn-transparent text-uppercase">more details</a><a href="basic-package-single.html" class="btn btn-lg btn-primary text-uppercase">book now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
